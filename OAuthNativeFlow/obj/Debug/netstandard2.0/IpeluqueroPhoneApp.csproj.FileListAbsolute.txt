@@ -1,0 +1,11 @@
+D:\Users\aabuiteiwi\Downloads\Xamarin_Forms___OAuthNativeFlow\OAuthNativeFlow\bin\Debug\netstandard2.0\IpeluqueroPhoneApp.deps.json
+D:\Users\aabuiteiwi\Downloads\Xamarin_Forms___OAuthNativeFlow\OAuthNativeFlow\bin\Debug\netstandard2.0\IpeluqueroPhoneApp.dll
+D:\Users\aabuiteiwi\Downloads\Xamarin_Forms___OAuthNativeFlow\OAuthNativeFlow\bin\Debug\netstandard2.0\IpeluqueroPhoneApp.pdb
+D:\Users\aabuiteiwi\Downloads\Xamarin_Forms___OAuthNativeFlow\OAuthNativeFlow\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\Users\aabuiteiwi\Downloads\Xamarin_Forms___OAuthNativeFlow\OAuthNativeFlow\obj\Debug\netstandard2.0\OAuthNativeFlowPage.xaml.g.cs
+D:\Users\aabuiteiwi\Downloads\Xamarin_Forms___OAuthNativeFlow\OAuthNativeFlow\obj\Debug\netstandard2.0\IpeluqueroPhoneApp.csproj.CoreCompileInputs.cache
+D:\Users\aabuiteiwi\Downloads\Xamarin_Forms___OAuthNativeFlow\OAuthNativeFlow\obj\Debug\netstandard2.0\IpeluqueroPhoneApp.AssemblyInfoInputs.cache
+D:\Users\aabuiteiwi\Downloads\Xamarin_Forms___OAuthNativeFlow\OAuthNativeFlow\obj\Debug\netstandard2.0\IpeluqueroPhoneApp.AssemblyInfo.cs
+D:\Users\aabuiteiwi\Downloads\Xamarin_Forms___OAuthNativeFlow\OAuthNativeFlow\obj\Debug\netstandard2.0\XamlC.stamp
+D:\Users\aabuiteiwi\Downloads\Xamarin_Forms___OAuthNativeFlow\OAuthNativeFlow\obj\Debug\netstandard2.0\IpeluqueroPhoneApp.dll
+D:\Users\aabuiteiwi\Downloads\Xamarin_Forms___OAuthNativeFlow\OAuthNativeFlow\obj\Debug\netstandard2.0\IpeluqueroPhoneApp.pdb

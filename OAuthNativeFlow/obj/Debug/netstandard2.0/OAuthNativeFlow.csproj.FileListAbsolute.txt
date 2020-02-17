@@ -1,0 +1,12 @@
+D:\Users\aabuiteiwi\Downloads\Xamarin_Forms___OAuthNativeFlow\OAuthNativeFlow\bin\Debug\netstandard2.0\OAuthNativeFlow.deps.json
+D:\Users\aabuiteiwi\Downloads\Xamarin_Forms___OAuthNativeFlow\OAuthNativeFlow\bin\Debug\netstandard2.0\OAuthNativeFlow.dll
+D:\Users\aabuiteiwi\Downloads\Xamarin_Forms___OAuthNativeFlow\OAuthNativeFlow\bin\Debug\netstandard2.0\OAuthNativeFlow.pdb
+D:\Users\aabuiteiwi\Downloads\Xamarin_Forms___OAuthNativeFlow\OAuthNativeFlow\obj\Debug\netstandard2.0\OAuthNativeFlow.csprojAssemblyReference.cache
+D:\Users\aabuiteiwi\Downloads\Xamarin_Forms___OAuthNativeFlow\OAuthNativeFlow\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\Users\aabuiteiwi\Downloads\Xamarin_Forms___OAuthNativeFlow\OAuthNativeFlow\obj\Debug\netstandard2.0\OAuthNativeFlowPage.xaml.g.cs
+D:\Users\aabuiteiwi\Downloads\Xamarin_Forms___OAuthNativeFlow\OAuthNativeFlow\obj\Debug\netstandard2.0\OAuthNativeFlow.csproj.CoreCompileInputs.cache
+D:\Users\aabuiteiwi\Downloads\Xamarin_Forms___OAuthNativeFlow\OAuthNativeFlow\obj\Debug\netstandard2.0\OAuthNativeFlow.AssemblyInfoInputs.cache
+D:\Users\aabuiteiwi\Downloads\Xamarin_Forms___OAuthNativeFlow\OAuthNativeFlow\obj\Debug\netstandard2.0\OAuthNativeFlow.AssemblyInfo.cs
+D:\Users\aabuiteiwi\Downloads\Xamarin_Forms___OAuthNativeFlow\OAuthNativeFlow\obj\Debug\netstandard2.0\XamlC.stamp
+D:\Users\aabuiteiwi\Downloads\Xamarin_Forms___OAuthNativeFlow\OAuthNativeFlow\obj\Debug\netstandard2.0\OAuthNativeFlow.dll
+D:\Users\aabuiteiwi\Downloads\Xamarin_Forms___OAuthNativeFlow\OAuthNativeFlow\obj\Debug\netstandard2.0\OAuthNativeFlow.pdb
