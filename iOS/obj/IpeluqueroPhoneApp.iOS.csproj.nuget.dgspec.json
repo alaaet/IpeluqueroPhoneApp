@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Users\\aabuiteiwi\\Downloads\\Xamarin_Forms___OAuthNativeFlow\\iOS\\IpeluqueroPhoneApp.iOS.csproj": {}
+    "C:\\Users\\jit\\source\\repos\\IpeluqueroPhoneApp\\iOS\\IpeluqueroPhoneApp.iOS.csproj": {}
   },
   "projects": {
-    "D:\\Users\\aabuiteiwi\\Downloads\\Xamarin_Forms___OAuthNativeFlow\\iOS\\IpeluqueroPhoneApp.iOS.csproj": {
+    "C:\\Users\\jit\\source\\repos\\IpeluqueroPhoneApp\\iOS\\IpeluqueroPhoneApp.iOS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Users\\aabuiteiwi\\Downloads\\Xamarin_Forms___OAuthNativeFlow\\iOS\\IpeluqueroPhoneApp.iOS.csproj",
+        "projectUniqueName": "C:\\Users\\jit\\source\\repos\\IpeluqueroPhoneApp\\iOS\\IpeluqueroPhoneApp.iOS.csproj",
         "projectName": "IpeluqueroPhoneApp.iOS",
-        "projectPath": "D:\\Users\\aabuiteiwi\\Downloads\\Xamarin_Forms___OAuthNativeFlow\\iOS\\IpeluqueroPhoneApp.iOS.csproj",
-        "packagesPath": "D:\\Users\\aabuiteiwi\\.nuget\\packages\\",
-        "outputPath": "D:\\Users\\aabuiteiwi\\Downloads\\Xamarin_Forms___OAuthNativeFlow\\iOS\\obj\\",
+        "projectPath": "C:\\Users\\jit\\source\\repos\\IpeluqueroPhoneApp\\iOS\\IpeluqueroPhoneApp.iOS.csproj",
+        "packagesPath": "C:\\Users\\jit\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jit\\source\\repos\\IpeluqueroPhoneApp\\iOS\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "D:\\Users\\aabuiteiwi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jit\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -32,8 +32,8 @@
         "frameworks": {
           "xamarinios10": {
             "projectReferences": {
-              "D:\\Users\\aabuiteiwi\\Downloads\\Xamarin_Forms___OAuthNativeFlow\\OAuthNativeFlow\\IpeluqueroPhoneApp.csproj": {
-                "projectPath": "D:\\Users\\aabuiteiwi\\Downloads\\Xamarin_Forms___OAuthNativeFlow\\OAuthNativeFlow\\IpeluqueroPhoneApp.csproj"
+              "C:\\Users\\jit\\source\\repos\\IpeluqueroPhoneApp\\OAuthNativeFlow\\IpeluqueroPhoneApp.csproj": {
+                "projectPath": "C:\\Users\\jit\\source\\repos\\IpeluqueroPhoneApp\\OAuthNativeFlow\\IpeluqueroPhoneApp.csproj"
               }
             }
           }
@@ -44,11 +44,11 @@
           "dependencies": {
             "Xamarin.Auth": {
               "target": "Package",
-              "version": "[1.6.0.2, )"
+              "version": "[1.7.0, )"
             },
             "Xamarin.Forms": {
               "target": "Package",
-              "version": "[4.4.0.991265, )"
+              "version": "[4.4.0.991640, )"
             }
           }
         }
@@ -65,21 +65,21 @@
         }
       }
     },
-    "D:\\Users\\aabuiteiwi\\Downloads\\Xamarin_Forms___OAuthNativeFlow\\OAuthNativeFlow\\IpeluqueroPhoneApp.csproj": {
+    "C:\\Users\\jit\\source\\repos\\IpeluqueroPhoneApp\\OAuthNativeFlow\\IpeluqueroPhoneApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Users\\aabuiteiwi\\Downloads\\Xamarin_Forms___OAuthNativeFlow\\OAuthNativeFlow\\IpeluqueroPhoneApp.csproj",
+        "projectUniqueName": "C:\\Users\\jit\\source\\repos\\IpeluqueroPhoneApp\\OAuthNativeFlow\\IpeluqueroPhoneApp.csproj",
         "projectName": "IpeluqueroPhoneApp",
-        "projectPath": "D:\\Users\\aabuiteiwi\\Downloads\\Xamarin_Forms___OAuthNativeFlow\\OAuthNativeFlow\\IpeluqueroPhoneApp.csproj",
-        "packagesPath": "D:\\Users\\aabuiteiwi\\.nuget\\packages\\",
-        "outputPath": "D:\\Users\\aabuiteiwi\\Downloads\\Xamarin_Forms___OAuthNativeFlow\\OAuthNativeFlow\\obj\\",
+        "projectPath": "C:\\Users\\jit\\source\\repos\\IpeluqueroPhoneApp\\OAuthNativeFlow\\IpeluqueroPhoneApp.csproj",
+        "packagesPath": "C:\\Users\\jit\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jit\\source\\repos\\IpeluqueroPhoneApp\\OAuthNativeFlow\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "D:\\Users\\aabuiteiwi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jit\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -112,22 +112,32 @@
             },
             "Newtonsoft.Json": {
               "target": "Package",
-              "version": "[11.0.2, )"
+              "version": "[12.0.3, )"
             },
             "Xamarin.Auth": {
               "target": "Package",
-              "version": "[1.6.0.2, )"
+              "version": "[1.7.0, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.3.1, )"
             },
             "Xamarin.Forms": {
               "target": "Package",
-              "version": "[4.4.0.991265, )"
+              "version": "[4.4.0.991640, )"
             }
           },
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

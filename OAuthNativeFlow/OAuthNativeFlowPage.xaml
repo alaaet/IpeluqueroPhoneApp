@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:OAuthNativeFlow" x:Class="OAuthNativeFlow.OAuthNativeFlowPage">
     <StackLayout VerticalOptions="Center">
-        <Button Text="Login" Clicked="OnLoginClicked" />
+        <Button Text="Login with google" Clicked="OnLoginClicked" ClassId="Google" />
+        <Button Text="Login with facebook" Clicked="OnLoginClicked" ClassId="Facebook" />
     </StackLayout>
 </ContentPage>

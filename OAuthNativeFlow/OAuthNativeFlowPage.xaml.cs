@@ -4,48 +4,63 @@ using System.Diagnostics;
 using Newtonsoft.Json;
 using Xamarin.Forms;
 using Xamarin.Auth;
+using Xamarin.Essentials;
 
 namespace OAuthNativeFlow
 {
     public partial class OAuthNativeFlowPage : ContentPage
     {
         Account account;
-        AccountStore store;
-
+		Constants Const;
         public OAuthNativeFlowPage()
         {
             InitializeComponent();
-
-            store = AccountStore.Create();
         }
 
-        void OnLoginClicked(object sender, EventArgs e)
+        async void OnLoginClicked(object sender, EventArgs e)
         {
-            string clientId = null;
+			Button btn = (Button)sender;
+			string clientId = null;
 			string redirectUri = null;
+			// Set the authentication provider
+			switch (btn.ClassId)
+			{
+				case "Google":
+					Const = new GoogleConstants();
+					break;
+				case "Facebook":
+					Const = new FacebookConstants();
+					break;
+				default:
+					Const = new GoogleConstants();
+					break;
+			}
 
 			switch (Device.RuntimePlatform)
 			{
 				case Device.iOS:
-					clientId = Constants.iOSClientId;
-					redirectUri = Constants.iOSRedirectUrl;
+					clientId = Const.iOSClientId;
+					redirectUri = Const.iOSRedirectUrl;
 					break;
 
 				case Device.Android:
-					clientId = Constants.AndroidClientId;
-					redirectUri = Constants.AndroidRedirectUrl;
+					clientId = Const.AndroidClientId;
+					redirectUri = Const.AndroidRedirectUrl;
 					break;
 			}
-
-            account = store.FindAccountsForService(Constants.AppName).FirstOrDefault();
+			string serializedAccount = await SecureStorage.GetAsync(Const.AppName);
+			if (serializedAccount != null) { 
+				account = JsonConvert.DeserializeObject<Account>(serializedAccount);
+			}
+			
 
             var authenticator = new OAuth2Authenticator(
 				clientId,
 				null,
-				Constants.Scope,
-				new Uri(Constants.AuthorizeUrl),
+				Const.Scope,
+				new Uri(Const.AuthorizeUrl),
 				new Uri(redirectUri),
-				new Uri(Constants.AccessTokenUrl),
+				new Uri(Const.AccessTokenUrl),
 				null,
 				true);
 
@@ -77,7 +92,7 @@ namespace OAuthNativeFlow
 			{
 				// If the user is authenticated, request their basic user data from Google
 				// UserInfoUrl = https://www.googleapis.com/oauth2/v2/userinfo
-				var request = new OAuth2Request("GET", new Uri(Constants.UserInfoUrl), null, e.Account);
+				var request = new OAuth2Request("GET", new Uri(Const.UserInfoUrl), null, e.Account);
 				var response = await request.GetResponseAsync();
 				if (response != null)
 				{
@@ -90,10 +105,10 @@ namespace OAuthNativeFlow
 
 				if (account != null)
 				{
-					store.Delete(account, Constants.AppName);
+					SecureStorage.Remove(Const.AppName);
 				}
 
-                await store.SaveAsync(account = e.Account, Constants.AppName);
+                await SecureStorage.SetAsync(Const.AppName, JsonConvert.SerializeObject(e.Account) );
                 await DisplayAlert("Email address", user.Email, "OK");
                 await DisplayAlert("Access token", user.AccessToken, "OK");
 
