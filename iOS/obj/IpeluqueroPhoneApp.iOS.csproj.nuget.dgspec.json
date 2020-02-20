@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jit\\source\\repos\\IpeluqueroPhoneApp\\iOS\\IpeluqueroPhoneApp.iOS.csproj": {}
+    "D:\\Users\\aabuiteiwi\\source\\repos\\IpeluqueroPhoneApp\\iOS\\IpeluqueroPhoneApp.iOS.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jit\\source\\repos\\IpeluqueroPhoneApp\\iOS\\IpeluqueroPhoneApp.iOS.csproj": {
+    "D:\\Users\\aabuiteiwi\\source\\repos\\IpeluqueroPhoneApp\\iOS\\IpeluqueroPhoneApp.iOS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jit\\source\\repos\\IpeluqueroPhoneApp\\iOS\\IpeluqueroPhoneApp.iOS.csproj",
+        "projectUniqueName": "D:\\Users\\aabuiteiwi\\source\\repos\\IpeluqueroPhoneApp\\iOS\\IpeluqueroPhoneApp.iOS.csproj",
         "projectName": "IpeluqueroPhoneApp.iOS",
-        "projectPath": "C:\\Users\\jit\\source\\repos\\IpeluqueroPhoneApp\\iOS\\IpeluqueroPhoneApp.iOS.csproj",
-        "packagesPath": "C:\\Users\\jit\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jit\\source\\repos\\IpeluqueroPhoneApp\\iOS\\obj\\",
+        "projectPath": "D:\\Users\\aabuiteiwi\\source\\repos\\IpeluqueroPhoneApp\\iOS\\IpeluqueroPhoneApp.iOS.csproj",
+        "packagesPath": "D:\\Users\\aabuiteiwi\\.nuget\\packages\\",
+        "outputPath": "D:\\Users\\aabuiteiwi\\source\\repos\\IpeluqueroPhoneApp\\iOS\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\jit\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "D:\\Users\\aabuiteiwi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -32,8 +32,8 @@
         "frameworks": {
           "xamarinios10": {
             "projectReferences": {
-              "C:\\Users\\jit\\source\\repos\\IpeluqueroPhoneApp\\OAuthNativeFlow\\IpeluqueroPhoneApp.csproj": {
-                "projectPath": "C:\\Users\\jit\\source\\repos\\IpeluqueroPhoneApp\\OAuthNativeFlow\\IpeluqueroPhoneApp.csproj"
+              "D:\\Users\\aabuiteiwi\\source\\repos\\IpeluqueroPhoneApp\\OAuthNativeFlow\\IpeluqueroPhoneApp.csproj": {
+                "projectPath": "D:\\Users\\aabuiteiwi\\source\\repos\\IpeluqueroPhoneApp\\OAuthNativeFlow\\IpeluqueroPhoneApp.csproj"
               }
             }
           }
@@ -65,21 +65,21 @@
         }
       }
     },
-    "C:\\Users\\jit\\source\\repos\\IpeluqueroPhoneApp\\OAuthNativeFlow\\IpeluqueroPhoneApp.csproj": {
+    "D:\\Users\\aabuiteiwi\\source\\repos\\IpeluqueroPhoneApp\\OAuthNativeFlow\\IpeluqueroPhoneApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jit\\source\\repos\\IpeluqueroPhoneApp\\OAuthNativeFlow\\IpeluqueroPhoneApp.csproj",
+        "projectUniqueName": "D:\\Users\\aabuiteiwi\\source\\repos\\IpeluqueroPhoneApp\\OAuthNativeFlow\\IpeluqueroPhoneApp.csproj",
         "projectName": "IpeluqueroPhoneApp",
-        "projectPath": "C:\\Users\\jit\\source\\repos\\IpeluqueroPhoneApp\\OAuthNativeFlow\\IpeluqueroPhoneApp.csproj",
-        "packagesPath": "C:\\Users\\jit\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jit\\source\\repos\\IpeluqueroPhoneApp\\OAuthNativeFlow\\obj\\",
+        "projectPath": "D:\\Users\\aabuiteiwi\\source\\repos\\IpeluqueroPhoneApp\\OAuthNativeFlow\\IpeluqueroPhoneApp.csproj",
+        "packagesPath": "D:\\Users\\aabuiteiwi\\.nuget\\packages\\",
+        "outputPath": "D:\\Users\\aabuiteiwi\\source\\repos\\IpeluqueroPhoneApp\\OAuthNativeFlow\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\jit\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "D:\\Users\\aabuiteiwi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -128,16 +128,10 @@
             }
           },
           "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
+            "net461"
           ],
           "assetTargetFallback": true,
-          "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "warn": true
         }
       }
     }

@@ -1166,24 +1166,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\jit\\.nuget\\packages\\": {},
+    "D:\\Users\\aabuiteiwi\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jit\\source\\repos\\IpeluqueroPhoneApp\\iOS\\IpeluqueroPhoneApp.iOS.csproj",
+      "projectUniqueName": "D:\\Users\\aabuiteiwi\\source\\repos\\IpeluqueroPhoneApp\\iOS\\IpeluqueroPhoneApp.iOS.csproj",
       "projectName": "IpeluqueroPhoneApp.iOS",
-      "projectPath": "C:\\Users\\jit\\source\\repos\\IpeluqueroPhoneApp\\iOS\\IpeluqueroPhoneApp.iOS.csproj",
-      "packagesPath": "C:\\Users\\jit\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jit\\source\\repos\\IpeluqueroPhoneApp\\iOS\\obj\\",
+      "projectPath": "D:\\Users\\aabuiteiwi\\source\\repos\\IpeluqueroPhoneApp\\iOS\\IpeluqueroPhoneApp.iOS.csproj",
+      "packagesPath": "D:\\Users\\aabuiteiwi\\.nuget\\packages\\",
+      "outputPath": "D:\\Users\\aabuiteiwi\\source\\repos\\IpeluqueroPhoneApp\\iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\jit\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "D:\\Users\\aabuiteiwi\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -1197,8 +1197,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\jit\\source\\repos\\IpeluqueroPhoneApp\\OAuthNativeFlow\\IpeluqueroPhoneApp.csproj": {
-              "projectPath": "C:\\Users\\jit\\source\\repos\\IpeluqueroPhoneApp\\OAuthNativeFlow\\IpeluqueroPhoneApp.csproj"
+            "D:\\Users\\aabuiteiwi\\source\\repos\\IpeluqueroPhoneApp\\OAuthNativeFlow\\IpeluqueroPhoneApp.csproj": {
+              "projectPath": "D:\\Users\\aabuiteiwi\\source\\repos\\IpeluqueroPhoneApp\\OAuthNativeFlow\\IpeluqueroPhoneApp.csproj"
             }
           }
         }

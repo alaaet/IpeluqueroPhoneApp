@@ -1,4 +1,5 @@
-﻿using Xamarin.Forms;
+﻿using OAuthNativeFlow.Views;
+using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
 [assembly:XamlCompilation(XamlCompilationOptions.Compile)]
@@ -6,11 +7,13 @@ namespace OAuthNativeFlow
 {
     public partial class App : Application
     {
+        public static User User { get; set; }
+        public static Constants Const { get; set; } = new Constants();
         public App()
         {
             InitializeComponent();
 
-            MainPage = new OAuthNativeFlowPage();
+            MainPage = new MainPage();
         }
 
         protected override void OnStart()

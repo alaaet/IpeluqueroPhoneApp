@@ -19,3 +19,16 @@ C:\Users\jit\source\repos\IpeluqueroPhoneApp\OAuthNativeFlow\obj\Debug\netstanda
 C:\Users\jit\source\repos\IpeluqueroPhoneApp\OAuthNativeFlow\obj\Debug\netstandard2.0\XamlC.stamp
 C:\Users\jit\source\repos\IpeluqueroPhoneApp\OAuthNativeFlow\obj\Debug\netstandard2.0\IpeluqueroPhoneApp.dll
 C:\Users\jit\source\repos\IpeluqueroPhoneApp\OAuthNativeFlow\obj\Debug\netstandard2.0\IpeluqueroPhoneApp.pdb
+D:\Users\aabuiteiwi\source\repos\IpeluqueroPhoneApp\OAuthNativeFlow\bin\Debug\netstandard2.0\IpeluqueroPhoneApp.deps.json
+D:\Users\aabuiteiwi\source\repos\IpeluqueroPhoneApp\OAuthNativeFlow\bin\Debug\netstandard2.0\IpeluqueroPhoneApp.dll
+D:\Users\aabuiteiwi\source\repos\IpeluqueroPhoneApp\OAuthNativeFlow\bin\Debug\netstandard2.0\IpeluqueroPhoneApp.pdb
+D:\Users\aabuiteiwi\source\repos\IpeluqueroPhoneApp\OAuthNativeFlow\obj\Debug\netstandard2.0\IpeluqueroPhoneApp.csprojAssemblyReference.cache
+D:\Users\aabuiteiwi\source\repos\IpeluqueroPhoneApp\OAuthNativeFlow\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\Users\aabuiteiwi\source\repos\IpeluqueroPhoneApp\OAuthNativeFlow\obj\Debug\netstandard2.0\Views\LoginPage.xaml.g.cs
+D:\Users\aabuiteiwi\source\repos\IpeluqueroPhoneApp\OAuthNativeFlow\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
+D:\Users\aabuiteiwi\source\repos\IpeluqueroPhoneApp\OAuthNativeFlow\obj\Debug\netstandard2.0\IpeluqueroPhoneApp.csproj.CoreCompileInputs.cache
+D:\Users\aabuiteiwi\source\repos\IpeluqueroPhoneApp\OAuthNativeFlow\obj\Debug\netstandard2.0\IpeluqueroPhoneApp.AssemblyInfoInputs.cache
+D:\Users\aabuiteiwi\source\repos\IpeluqueroPhoneApp\OAuthNativeFlow\obj\Debug\netstandard2.0\IpeluqueroPhoneApp.AssemblyInfo.cs
+D:\Users\aabuiteiwi\source\repos\IpeluqueroPhoneApp\OAuthNativeFlow\obj\Debug\netstandard2.0\XamlC.stamp
+D:\Users\aabuiteiwi\source\repos\IpeluqueroPhoneApp\OAuthNativeFlow\obj\Debug\netstandard2.0\IpeluqueroPhoneApp.dll
+D:\Users\aabuiteiwi\source\repos\IpeluqueroPhoneApp\OAuthNativeFlow\obj\Debug\netstandard2.0\IpeluqueroPhoneApp.pdb
