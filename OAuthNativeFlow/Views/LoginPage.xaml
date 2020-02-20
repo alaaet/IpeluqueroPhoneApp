@@ -7,9 +7,15 @@
              x:Class="IpeluqueroPhoneApp.Views.LoginPage">
     <ContentPage.Content>
         <StackLayout VerticalOptions="Center">
-            <Button Text="Login with google" Clicked="OnLoginClicked" ClassId="Google" />
-            <Button Text="Login with facebook" Clicked="OnLoginClicked" ClassId="Facebook" />
-
+            <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="Center">
+                <Entry Placeholder="Email" x:Name="Email"/>
+                <Entry Placeholder="Password" x:Name="Pass" IsPassword="true"/>
+                <Button Text="Login" x:Name="Login" Clicked="NativeLoginClicked" ></Button>
+            </StackLayout>
+            <Button Text="Login with google" Clicked="SocialLoginClicked" ClassId="Google" />
+            <Button Text="Login with facebook" Clicked="SocialLoginClicked" ClassId="Facebook" />
+            <Label Text="--------" HorizontalOptions="Center"/>
+            <Button Text="Register" Clicked="RegisterClicked" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

@@ -1,4 +1,4 @@
-	/* Data SHA1: 95a572311bec4bd1b279a01a34f2b87a67ee16c2 */
+	/* Data Hash: 72ED2DD4B1D2ACE4 */
 	.arch	armv7-a
 	.syntax unified
 	.eabi_attribute 67, "2.09"	@ Tag_conformance

@@ -6,7 +6,7 @@
              mc:Ignorable="d"
              x:Class="OAuthNativeFlow.Views.MainPage">
     <ContentPage.Content>
-        <StackLayout >
+        <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
             <Label x:Name="lblEmail" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" />
             <Label  x:Name="lblName"  VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" />
             <Label x:Name="lblToken" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" />

@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Users\\aabuiteiwi\\source\\repos\\IpeluqueroPhoneApp\\OAuthNativeFlow\\IpeluqueroPhoneApp.csproj": {}
+    "C:\\Users\\jit\\source\\repos\\IpeluqueroPhoneApp\\OAuthNativeFlow\\IpeluqueroPhoneApp.csproj": {}
   },
   "projects": {
-    "D:\\Users\\aabuiteiwi\\source\\repos\\IpeluqueroPhoneApp\\OAuthNativeFlow\\IpeluqueroPhoneApp.csproj": {
+    "C:\\Users\\jit\\source\\repos\\IpeluqueroPhoneApp\\OAuthNativeFlow\\IpeluqueroPhoneApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Users\\aabuiteiwi\\source\\repos\\IpeluqueroPhoneApp\\OAuthNativeFlow\\IpeluqueroPhoneApp.csproj",
+        "projectUniqueName": "C:\\Users\\jit\\source\\repos\\IpeluqueroPhoneApp\\OAuthNativeFlow\\IpeluqueroPhoneApp.csproj",
         "projectName": "IpeluqueroPhoneApp",
-        "projectPath": "D:\\Users\\aabuiteiwi\\source\\repos\\IpeluqueroPhoneApp\\OAuthNativeFlow\\IpeluqueroPhoneApp.csproj",
-        "packagesPath": "D:\\Users\\aabuiteiwi\\.nuget\\packages\\",
-        "outputPath": "D:\\Users\\aabuiteiwi\\source\\repos\\IpeluqueroPhoneApp\\OAuthNativeFlow\\obj\\",
+        "projectPath": "C:\\Users\\jit\\source\\repos\\IpeluqueroPhoneApp\\OAuthNativeFlow\\IpeluqueroPhoneApp.csproj",
+        "packagesPath": "C:\\Users\\jit\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jit\\source\\repos\\IpeluqueroPhoneApp\\OAuthNativeFlow\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "D:\\Users\\aabuiteiwi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jit\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -67,10 +67,16 @@
             }
           },
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

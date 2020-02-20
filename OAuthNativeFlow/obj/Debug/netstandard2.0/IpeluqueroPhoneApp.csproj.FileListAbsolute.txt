@@ -13,7 +13,6 @@ C:\Users\jit\source\repos\IpeluqueroPhoneApp\OAuthNativeFlow\bin\Debug\netstanda
 C:\Users\jit\source\repos\IpeluqueroPhoneApp\OAuthNativeFlow\bin\Debug\netstandard2.0\IpeluqueroPhoneApp.dll
 C:\Users\jit\source\repos\IpeluqueroPhoneApp\OAuthNativeFlow\bin\Debug\netstandard2.0\IpeluqueroPhoneApp.pdb
 C:\Users\jit\source\repos\IpeluqueroPhoneApp\OAuthNativeFlow\obj\Debug\netstandard2.0\App.xaml.g.cs
-C:\Users\jit\source\repos\IpeluqueroPhoneApp\OAuthNativeFlow\obj\Debug\netstandard2.0\OAuthNativeFlowPage.xaml.g.cs
 C:\Users\jit\source\repos\IpeluqueroPhoneApp\OAuthNativeFlow\obj\Debug\netstandard2.0\IpeluqueroPhoneApp.AssemblyInfoInputs.cache
 C:\Users\jit\source\repos\IpeluqueroPhoneApp\OAuthNativeFlow\obj\Debug\netstandard2.0\IpeluqueroPhoneApp.AssemblyInfo.cs
 C:\Users\jit\source\repos\IpeluqueroPhoneApp\OAuthNativeFlow\obj\Debug\netstandard2.0\XamlC.stamp
@@ -32,3 +31,7 @@ D:\Users\aabuiteiwi\source\repos\IpeluqueroPhoneApp\OAuthNativeFlow\obj\Debug\ne
 D:\Users\aabuiteiwi\source\repos\IpeluqueroPhoneApp\OAuthNativeFlow\obj\Debug\netstandard2.0\XamlC.stamp
 D:\Users\aabuiteiwi\source\repos\IpeluqueroPhoneApp\OAuthNativeFlow\obj\Debug\netstandard2.0\IpeluqueroPhoneApp.dll
 D:\Users\aabuiteiwi\source\repos\IpeluqueroPhoneApp\OAuthNativeFlow\obj\Debug\netstandard2.0\IpeluqueroPhoneApp.pdb
+C:\Users\jit\source\repos\IpeluqueroPhoneApp\OAuthNativeFlow\obj\Debug\netstandard2.0\IpeluqueroPhoneApp.csprojAssemblyReference.cache
+C:\Users\jit\source\repos\IpeluqueroPhoneApp\OAuthNativeFlow\obj\Debug\netstandard2.0\Views\LoginPage.xaml.g.cs
+C:\Users\jit\source\repos\IpeluqueroPhoneApp\OAuthNativeFlow\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
+C:\Users\jit\source\repos\IpeluqueroPhoneApp\OAuthNativeFlow\obj\Debug\netstandard2.0\Views\RegisterPage.xaml.g.cs

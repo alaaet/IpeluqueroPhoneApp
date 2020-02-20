@@ -955,7 +955,6 @@ C:\Users\jit\source\repos\IpeluqueroPhoneApp\Droid\obj\Debug\90\stamp\_ConvertRe
 C:\Users\jit\source\repos\IpeluqueroPhoneApp\Droid\obj\Debug\90\stamp\_GenerateJavaStubs.stamp
 C:\Users\jit\source\repos\IpeluqueroPhoneApp\Droid\obj\Debug\90\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\jit\source\repos\IpeluqueroPhoneApp\Droid\obj\Debug\90\stamp\_ResolveLibraryProjectImports.stamp
-C:\Users\jit\source\repos\IpeluqueroPhoneApp\Droid\bin\Debug\IpeluqueroPhoneApp.dll.mdb
 D:\Users\aabuiteiwi\source\repos\IpeluqueroPhoneApp\Droid\bin\Debug\OAuthNativeFlow.Droid.dll
 D:\Users\aabuiteiwi\source\repos\IpeluqueroPhoneApp\Droid\bin\Debug\OAuthNativeFlow.Droid.pdb
 D:\Users\aabuiteiwi\source\repos\IpeluqueroPhoneApp\Droid\bin\Debug\com.companyname.oauthnativeflow.apk
@@ -1446,3 +1445,4 @@ D:\Users\aabuiteiwi\source\repos\IpeluqueroPhoneApp\Droid\obj\Debug\90\stamp\_Co
 D:\Users\aabuiteiwi\source\repos\IpeluqueroPhoneApp\Droid\obj\Debug\90\stamp\_GenerateJavaStubs.stamp
 D:\Users\aabuiteiwi\source\repos\IpeluqueroPhoneApp\Droid\obj\Debug\90\stamp\_GeneratePackageManagerJava.stamp
 D:\Users\aabuiteiwi\source\repos\IpeluqueroPhoneApp\Droid\obj\Debug\90\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\jit\source\repos\IpeluqueroPhoneApp\Droid\bin\Debug\IpeluqueroPhoneApp.dll.mdb

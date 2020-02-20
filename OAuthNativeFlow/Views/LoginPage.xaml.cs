@@ -7,6 +7,7 @@ using Xamarin.Essentials;
 using Xamarin.Forms.Xaml;
 using OAuthNativeFlow;
 using System.Net.Http;
+using IpeluqueroPhoneApp.Services;
 
 namespace IpeluqueroPhoneApp.Views
 {
@@ -17,7 +18,30 @@ namespace IpeluqueroPhoneApp.Views
         {
             InitializeComponent();
         }
-        void OnLoginClicked(object sender, EventArgs e)
+        async void NativeLoginClicked(object sender, EventArgs e)
+        {
+            ApiService client = new ApiService();
+            var getLoginDetails = await client.CheckLoginIfExists(Email.Text, Pass.Text);
+            if (getLoginDetails)
+            {
+                //await DisplayAlert("Login Successfull", "Username or Password is correct", "Okay", "Cancel");
+                await Navigation.PopModalAsync();
+            }
+            else if (Email.Text == null && Pass.Text == null)
+            {
+                await DisplayAlert("Login failed", "Enter your Email and Password before login", "Okay", "Cancel");
+            }
+            else
+            {
+                await DisplayAlert("Login failed", "Username or Password is incorrect or not exists", "Okay", "Cancel");
+            }
+        }
+        async void RegisterClicked(object sender, EventArgs e)
+        {
+            //await Navigation.PopModalAsync();
+            await Navigation.PushModalAsync(new RegisterPage());
+        }
+        void SocialLoginClicked(object sender, EventArgs e)
         {
             Button btn = (Button)sender;
             string clientId = null;
