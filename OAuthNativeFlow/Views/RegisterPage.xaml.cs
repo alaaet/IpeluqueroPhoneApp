@@ -20,7 +20,7 @@ namespace IpeluqueroPhoneApp.Views
         async void RegisterClicked(object sender, EventArgs e)
         {
             ApiService client = new ApiService();
-            var getLoginDetails = await client.CheckLoginIfExists(Email.Text, Pass.Text);
+            var getLoginDetails = await client.CheckIfNativeLoginExistsAndUpadteUser(Email.Text, Pass.Text);
 
             if (First.Text == null && Last.Text == null && Email.Text == null && Pass.Text == null && Confirm.Text == null)
             {

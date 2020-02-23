@@ -4,6 +4,14 @@
 	{
 		public string AppName = "OAuthNativeFlow";
         public string iOSClientId, AndroidClientId, Scope, AuthorizeUrl, AccessTokenUrl, UserInfoUrl, iOSRedirectUrl, AndroidRedirectUrl;
+
+		// API CONSTANTS:
+		public string APIBaseUrl = "https://todo-demo-alaa.herokuapp.com/api/";
+		public string APINativeLoginRealtivePath = "auth/login";
+		public string APISocialLoginRealtivePath = "auth/social_login";
+		public string DataTypeJson = "application/json";
+		// FB Graph constants:
+		public string FBBaseUrl = "https://graph.facebook.com/me";
 	}
 	public class GoogleConstants: Constants
 	{

@@ -6,7 +6,6 @@ using Xamarin.Auth;
 using Xamarin.Essentials;
 using Xamarin.Forms.Xaml;
 using OAuthNativeFlow;
-using System.Net.Http;
 using IpeluqueroPhoneApp.Services;
 
 namespace IpeluqueroPhoneApp.Views
@@ -14,14 +13,14 @@ namespace IpeluqueroPhoneApp.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class LoginPage : ContentPage
     {
+        ApiService client = new ApiService();
         public LoginPage()
         {
             InitializeComponent();
         }
         async void NativeLoginClicked(object sender, EventArgs e)
         {
-            ApiService client = new ApiService();
-            var getLoginDetails = await client.CheckLoginIfExists(Email.Text, Pass.Text);
+            var getLoginDetails = await client.CheckIfNativeLoginExistsAndUpadteUser(Email.Text, Pass.Text);
             if (getLoginDetails)
             {
                 //await DisplayAlert("Login Successfull", "Username or Password is correct", "Okay", "Cancel");
@@ -61,7 +60,6 @@ namespace IpeluqueroPhoneApp.Views
                     App.Const = new GoogleConstants();
                     break;
             }
-
             switch (Device.RuntimePlatform)
             {
                 case Device.iOS:
@@ -74,8 +72,6 @@ namespace IpeluqueroPhoneApp.Views
                     redirectUri = App.Const.AndroidRedirectUrl;
                     break;
             }
-
-
             accessTokenUrl = App.Const.AccessTokenUrl != null ? new Uri(App.Const.AccessTokenUrl) : null;
             if (accessTokenUrl != null)
             {
@@ -97,13 +93,9 @@ namespace IpeluqueroPhoneApp.Views
                 new Uri(App.Const.AuthorizeUrl),
                 new Uri(redirectUri));
             }
-
-
             authenticator.Completed += OnAuthCompleted;
             authenticator.Error += OnAuthError;
-
             AuthenticationState.Authenticator = authenticator;
-
             var presenter = new Xamarin.Auth.Presenters.OAuthLoginPresenter();
             presenter.Login(authenticator);
         }
@@ -128,23 +120,17 @@ namespace IpeluqueroPhoneApp.Views
                 switch (App.Const.GetType().Name)
                 {
                     case "GoogleConstants":
-                        // If the user is authenticated, request their basic user data from Google
                         // UserInfoUrl = https://www.googleapis.com/oauth2/v2/userinfo
                         var request = new OAuth2Request("GET", new Uri(App.Const.UserInfoUrl), null, e.Account);
                         var response = await request.GetResponseAsync();
                         if (response != null)
                         {
-                            // Deserialize the data and store it in the account store
-                            // The users email address will be used to identify data in SimpleDB
                             userJson = await response.GetResponseTextAsync();
                             App.User = JsonConvert.DeserializeObject<User>(userJson);
                         }
                         break;
                     case "FacebookConstants":
-                        var httpClient = new HttpClient();
-                        userJson = await httpClient.GetStringAsync(
-                            $"https://graph.facebook.com/me?fields=name,picture.type(large),email,birthday&access_token={access_token}");
-                        App.User = JsonConvert.DeserializeObject<User>(userJson);
+                        App.User = await client.GetFacebookUser(access_token);
                         break;
                     default:
                         await DisplayAlert("Error", "Something went wrong, contact helpdesk please.", "Ok");

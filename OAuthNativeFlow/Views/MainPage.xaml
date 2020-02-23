@@ -4,7 +4,8 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="OAuthNativeFlow.Views.MainPage">
+             x:Class="OAuthNativeFlow.Views.MainPage"
+                          BackgroundColor="White">
     <ContentPage.Content>
         <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
             <Label x:Name="lblEmail" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" />
